@@ -26,5 +26,8 @@ use Illuminate\Database\Eloquent\Model;
         'Nama',
         'Kelas',
         'Jurusan',
+        'Email',
+        'Alamat',
+        'TanggalLahir',
         ];
     };
