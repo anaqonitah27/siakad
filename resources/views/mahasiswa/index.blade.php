@@ -7,6 +7,11 @@
         </div>
         <div class="float-right my-2">
             <a class="btn btn-success" href="{{ route('mahasiswa.create') }}"> Input Mahasiswa</a>
+        <br><br>
+        <form action="{{ route('search') }}" method="GET">
+                <input type="text" name="search" placeholder="Cari Mahasiswa">
+                <input type="submit" value="Search">
+        </form>
         </div>
     </div>
 </div>
